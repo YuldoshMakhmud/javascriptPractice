@@ -36,6 +36,14 @@
 
 
  console.log(Number.parseInt(number));
+ console.log(Number.parseFloat(number));
+
+ // numberniham stringa utkizsa buladi
+ console.log(number.toFixed(number)); // toFixed sonni stringa utkazadi. sonni qoldigini olib tashlab stringa utkazadi toFixed 2ta xususiyatlari bor 1. sonni utkazadi 2. qoldiqni olib tashlaydi
+
+let  x ; // uzgaruvchiga hechnarsa berilmasa nan buladi   Not A Number
+
+console.log(5+x);
 
 
 

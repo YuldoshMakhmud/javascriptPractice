@@ -10,4 +10,10 @@ let number =  5.4;
 
 // console.log(Math.floor); qoldiq bulsa olib tashlab sonni uzini qaytara
 
-console.log(Math.ceil(number));
+// console.log(Math.ceil(number));  sonda qoldiq bulsa butun qilib beradi   qoldiq kam yoki kup bulsa farqi yu  1 qushibquyadi
+
+// console.log(Math.min);  sonlatr ichida eng kichigini tanlab oladi
+
+// console.log(Math.max);  sonlar orasida eng kottasini oladi
+
+// console.log(Math.random);      taxminiy son beradi

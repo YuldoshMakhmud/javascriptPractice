@@ -4,18 +4,24 @@
 // 2- expression function
 // 3- Arrov function
 
-sayHello()
- function sayHello(){
-    console.log("hello");
- }
+// sayHello()
+//  function sayHello(){
+//     console.log("hello");
+//  }
 
 
- let sayHi = function(){
-    console.log("Hello");
- }
- sayHi()
+//  let sayHi = function(){
+//     console.log("Hello");
+//  }
+//  sayHi()
 
- hello = ()=>{
-    return "hello world"
- }
- console.log(hello());
+//  hello = ()=>{
+//     return "hello world"
+//  }
+//  console.log(hello());
+
+
+function coffee(){
+   console.log("ameracano");
+};
+coffee()

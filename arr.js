@@ -43,15 +43,30 @@
                         // array loop
 
 
-let arr = [1,2,3,4]
+// let arr = [1,2,3,4]
 
-const map1 = arr.map((x)=> x * 2)  //  map uziga 3qiymat oladi 1 value  2 itemlarini indexsi 33 array buladi  map o'z ichiga callback funksiya oladi returnga qaytadi
+// const map1 = arr.map((x)=> x * 2)  //  map uziga 3qiymat oladi 1 value  2 itemlarini indexsi 33 array buladi  map o'z ichiga callback funksiya oladi returnga qaytadi
 
-console.log(map1);
+// console.log(map1);
 
 
-let numbers = [1,4,9]
-let doubles = numbers.map(function(num){
-    return num *2
-})
-console.log(doubles);
+// let numbers = [1,4,9]
+// let doubles = numbers.map(function(num){
+//     return num *2
+// })
+// console.log(doubles);
+
+
+
+ //  ForEach   3qiymat oladi 1 value  2index 3 arrayni uzi.  hozirgi kunda array ishlatilmedi yozmaham buladi . foreach yangi array hosil qilmaydi returnga qaytmaydi
+
+// let text = ["be","coder","edu"]
+// text.unshift("hi")
+
+// console.log(text)     // unshift boshidan malumot qushadi
+
+
+//sort
+
+let fruit = ["banana","apple","Orange" ]
+console.log(fruit.sort())

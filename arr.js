@@ -68,5 +68,5 @@
 
 //sort
 
-let fruit = ["banana","apple","Orange" ]
-console.log(fruit.sort())
+// let fruit = ["banana","apple","Orange" ]
+// console.log(fruit.sort())

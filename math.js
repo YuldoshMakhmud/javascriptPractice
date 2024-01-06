@@ -1,5 +1,5 @@
 // math methodlarini  kurib chiqamiz  9ta method bor
-let number =  5.4;
+// let number =  5.4;
 
 // console.log(Math.round(number));  agar sonimiz qoldiqli bulsa va qoldigi 5dan kam bulsa o'sha son qoladi  5dan baland bulsa 1 qushib quyadi  5.4bulsa 5  . 5.6 bulsa 6
 
@@ -17,3 +17,30 @@ let number =  5.4;
 // console.log(Math.max);  sonlar orasida eng kottasini oladi
 
 // console.log(Math.random);      taxminiy son beradi
+let numberOfSeries;
+const seriesDb = {
+     count: numberOfSeries,
+     series: {},
+     actors: {},
+     genres: [],
+     private: false
+    
+    }
+
+function showDb(hidden){
+    if(!hidden){
+        console.log(seriesDb);
+    }
+}
+
+showDb(seriesDb.private);
+
+
+function writtenGenres(){
+    for (let i = 0; i <= 2; i++){
+    
+        const genre = +prompt(`yaxshi kurgan janringiz  ${i + 1}`);
+        seriesDb.genres[i] = genre
+    }
+}
+writtenGenres()

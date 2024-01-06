@@ -21,7 +21,25 @@
 //  console.log(hello());
 
 
-function coffee(){
-   console.log("ameracano");
-};
-coffee()
+// function coffee(){
+//    console.log("ameracano");
+// };
+// coffee()
+
+let age = 30;
+
+function sayMyName(name,surname){
+   age=20;
+   console.log(`my name is ${name} ${surname}`);
+   console.log(age);
+}
+
+sayMyName("maxmud", "badriddinov")
+console.log(age);
+
+
+
+function calc(a,b){
+   return a+b;
+}
+console.log(calc(5,5));

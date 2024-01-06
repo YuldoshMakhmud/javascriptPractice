@@ -90,22 +90,109 @@
 // console.log(isAge || isClose); // bittasi tugri chiqsa buldi true chiqdi
 // console.log(isAge && !isClose && isChacked); //  ! undov falsni truga aylantrib beradi
 
-const numberOfSeries =  +prompt("nechta serial kurdingiz", "")
+// let numberOfSeries;
 
+// function startApp(){
+//      numberOfSeries =  +prompt("nechta serial kurdingiz", "");
+
+
+//      while(numberOfSeries == "" || numberOfSeries == null || isNaN(numberOfSeries)){
+//         numberOfSeries =  +prompt("nechta serial kurdingiz", "");
+//      }
+// }
+// startApp();
+
+// const seriesDb = {
+//  count: numberOfSeries,
+//  series: {},
+//  actors: {},
+//  genres: [],
+//  private: false
+
+// }
+
+// function rememberMySeries(){
+
+//     for(let i = 0; i<2; i++){
+//         const a = prompt("last time watch movie?"),
+//     b = prompt("what give you mark");
+    
+//     if(a != null && b != null && a != "" && b != "" ){
+//         seriesDb.series[a] =b;
+//     console.log("done");
+//     } else{
+//         console.log("error");
+//         i--;
+//     }
+// }
+// }
+// rememberMySeries();
+
+// function dedectLevelSeries(){
+
+//     if(numberOfSeries.count < 5){
+//     console.log(alert("siz kam kurarkansiz"));
+//     } else if(numberOfSeries.count < 10) {
+//         console.log(alert("siz kilassik tomashabin kensiz"));
+//     }else {
+//         console.log(alert("siz manyaksiz"));
+//     }
+// }
+// dedectLevelSeries()
+
+// console.log(seriesDb);
+
+
+// loop     3 way  1st while  2nd do while  3rd for  (eng asosiysi)
+
+// let startNum =  10
+
+// while (startNum <= 20){
+//     console.log(startNum);
+//     startNum++;
+// }
+
+// do{
+//     console.log(startNum);
+//     startNum++;
+// }while (startNum <= 10)
+
+
+//for uziga uta argument qabul qiladi
+
+
+// for(let i = 1;  i<=10; i++){
+//     if (i === 9){
+//       //  break
+//       continue;
+//     }
+//     console.log(i);
+// }
+
+let numberOfSeries;
 const seriesDb = {
- count: numberOfSeries,
- series: {},
- actors: {},
- genres: [],
- private: false
+     count: numberOfSeries,
+     series: {},
+     actors: {},
+     genres: [],
+     private: false
+    
+    }
 
+function showDb(hidden){
+    if(!hidden){
+        console.log(seriesDb);
+    }
 }
-const a = prompt("last time watch movie?"),
-b = prompt("what give you mark"),
-c = prompt("last time watch movie"),
-d = prompt("what give you mark");
 
-seriesDb.series[a] =b;
-seriesDb.series[c] =d;
+showDb(seriesDb.private);
 
-console.log(seriesDb);
+
+function writtenGenres(){
+    for (let i = 0; i <= 2; i++){
+        const genre = prompt(`yaxshi kurgan janringiz  ${i + 1}`);
+        seriesDb.genres[i] = genre
+    }
+}
+writtenGenres()
+

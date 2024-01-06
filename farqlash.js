@@ -35,13 +35,14 @@
 //     case 6:
 //       day = "Saturday";
 //   }
-let time = ""
+// let time = ""
 
 
-if(time === "open"){
-  console.log("obo is open");
-}else if(time === "close"){
-  console.log("obo is closed");
-} else{
-  console.log("abed");
-}
+// if(time === "open"){
+//   console.log("obo is open");
+// }else if(time === "close"){
+//   console.log("obo is closed");
+// } else{
+//   console.log("abed");
+// }
+ // shartli operatorlar

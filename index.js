@@ -169,30 +169,30 @@
 //     console.log(i);
 // }
 
-let numberOfSeries;
-const seriesDb = {
-     count: numberOfSeries,
-     series: {},
-     actors: {},
-     genres: [],
-     private: false
+// let numberOfSeries;
+// const seriesDb = {
+//      count: numberOfSeries,
+//      series: {},
+//      actors: {},
+//      genres: [],
+//      private: false
     
-    }
+//     }
 
-function showDb(hidden){
-    if(!hidden){
-        console.log(seriesDb);
-    }
-}
+// function showDb(hidden){
+//     if(!hidden){
+//         console.log(seriesDb);
+//     }
+// }
 
-showDb(seriesDb.private);
+// showDb(seriesDb.private);
 
 
-function writtenGenres(){
-    for (let i = 0; i <= 2; i++){
-        const genre = prompt(`yaxshi kurgan janringiz  ${i + 1}`);
-        seriesDb.genres[i] = genre
-    }
-}
-writtenGenres()
+// function writtenGenres(){
+//     for (let i = 0; i <= 2; i++){
+//         const genre = prompt(`yaxshi kurgan janringiz  ${i + 1}`);
+//         seriesDb.genres[i] = genre
+//     }
+// }
+// writtenGenres()
 

@@ -26,20 +26,35 @@
 // };
 // coffee()
 
-let age = 30;
+// let age = 30;
 
-function sayMyName(name,surname){
-   age=20;
-   console.log(`my name is ${name} ${surname}`);
-   console.log(age);
+// function sayMyName(name,surname){
+//    age=20;
+//    console.log(`my name is ${name} ${surname}`);
+//    console.log(age);
+// }
+
+// sayMyName("maxmud", "badriddinov")
+// console.log(age);
+
+
+
+// function calc(a,b){
+//    return a+b;
+// }
+// console.log(calc(5,5));
+
+function User (name,lastNAme,birthDay){
+   this.name= name
+   this.lastNAme= lastNAme
+   this.birthDay =new Date(birthDay).getFullYear()
 }
 
-sayMyName("maxmud", "badriddinov")
-console.log(age);
 
+//Instant obyekt
 
+const user1 = new User("bexruz", "xolmuminov","1995-12-08")
+const user2 = new User("bexruz2", "xolmuminov2","1995-12-08")
 
-function calc(a,b){
-   return a+b;
-}
-console.log(calc(5,5));
+console.log(user1);
+console.log(user2);

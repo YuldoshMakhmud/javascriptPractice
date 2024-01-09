@@ -46,3 +46,5 @@
 //   console.log("abed");
 // }
  // shartli operatorlar
+
+ // if condition

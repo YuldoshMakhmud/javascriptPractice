@@ -71,3 +71,62 @@
 // let fruit = ["banana","apple","Orange" ]
 // console.log(fruit.sort())
 
+// for(let i = 0; i<=8; i++){
+//     console.log("for loop ",i);
+// }
+
+// let i = 0;
+// while (i<=8){
+//     console.log("while loop",i); // agar increment quilinmasa infinity bulib qoladi
+//     i++;
+// }
+
+const books =[
+    {
+        id: 1,
+        title: "javascript",
+        isRead: false
+    },
+    {
+        id: 2,
+        title: "javascript2",
+        isRead: true
+    },
+    {
+        id: 3,
+        title: "javascript3",
+        isRead: false
+    },
+]
+
+
+// for (i =0; i < books.length; i++){
+//     console.log(books[i].isRead);
+// }
+
+
+// for of loop 
+
+// for(let book of books){
+//     console.log(book.title);
+// }
+
+//forEach , map , filter. high order methods
+
+books.forEach(book => {
+    console.log(book.title);
+    
+});
+
+const bookTitle = books.map(book =>{
+    return book.title
+})
+console.log(bookTitle);
+
+const isChacked = books.filter(book =>{
+    return book.id !== 1
+}).map(book =>{
+    return book.title
+})
+
+console.log(isChacked);
